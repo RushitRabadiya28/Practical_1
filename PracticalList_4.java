@@ -21,6 +21,7 @@ public class PracticalList_4 {
                     if(student[i][j]==ans[j])
                     {
                         a[i]++;
+                        int c=0;
                     }
                 }
             }
