@@ -1,7 +1,6 @@
 public class Ass_7 {
     private static final String string = " ";
-    //public static void main(String[] args)
-    void runFunction()
+    void runFunction() //  method 
     {
         int number = 0;
         for (int row = 0; row <= 7; row++) {
