@@ -1,6 +1,6 @@
 import java.util.*;
 public class Ass_9 {
-     static void Sudoku(int arr1[][],int arr2[][])
+     static void Sudoku(int arr1[][],int arr2[][])  // method 
     {
         int temp1 = 0;
         for (int i = 0; i < 9; i++) {
@@ -32,7 +32,7 @@ public class Ass_9 {
                 break;
             }
         }
-        if(temp1==1 || temp2==1)
+        if(temp1==1 || temp2==1)  // for print answer 
         {
             System.out.println("NOT A VALID SOLUTION");
         }
