@@ -1,21 +1,21 @@
 import java.util.Scanner;
 import java.util.*;
 
-public class Ass_6_2 {
+public class Ass_6 {
 
-        Ass_6_2(String[] words, String target) {
+        Ass_6(String[] words, String target) {
             int found = 0;
             for (int i = 0; i < words.length; i++) {
                 if (words[i].equals(target)) {
-                    found++;// checking if any string in the string array is same as the target string.
+                    found++;
                 }
             }
-            found = words.length - found;// removing the length of the string same as target.
+            found = words.length - found;
             int place = 0;
-            String[] str = new String[found];// making a new array for the remaining elements of original array.
+            String[] str = new String[found];
             for (int j = 0; j < words.length; j++) {
                 if (!words[j].equals(target)) {
-                    str[place] = words[j];// string element not equal to target are placed in new array.
+                    str[place] = words[j];
                     place++;
                 }
             }
