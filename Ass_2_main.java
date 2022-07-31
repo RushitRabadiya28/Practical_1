@@ -7,5 +7,6 @@ public class Ass_2_main {
         System.out.print("Enter String:");
         String A=ssc.nextLine();
        as.startOZ(A);
+       System.out.println("Created By:- Rushit Rabadiya \n" + "ID:- 21CE111");
     }
 }
