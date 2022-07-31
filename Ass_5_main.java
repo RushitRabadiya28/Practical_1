@@ -7,7 +7,7 @@ public class Ass_5_main {
             String s1=sc.next();
             System.out.println("Enter second string : ");
             String s2=sc.next();
-            Ass_5 d5=new Ass_5(s1,s2);//calls constructor of class file.
+            Ass_5 d5=new Ass_5(s1,s2);
             sc.close();
         }
     }
