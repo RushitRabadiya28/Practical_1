@@ -9,11 +9,11 @@ public class Ass_6_main {
             System.out.println("Enter the array of String");
             for(int i=0;i<5;i++)
             {
-                s[i] = sc.next();
+                s[i] = sc.next();   // input array 
             }
             System.out.println("Enter the target String");
-            s1 = sc.next();
-            Ass_6 d6 = new Ass_6(s,s1);
+            s1 = sc.next();   // input sting for target 
+            Ass_6 d6 = new Ass_6(s,s1);  // object make with pass argument
         }
     }
 
