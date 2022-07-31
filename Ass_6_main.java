@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ass_6_2_main {
+public class Ass_6_main {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
@@ -13,8 +13,7 @@ public class Ass_6_2_main {
             }
             System.out.println("Enter the target String");
             s1 = sc.next();
-            Ass_6_2 d6 = new Ass_6_2(s,s1);
-            sc.close();
+            Ass_6 d6 = new Ass_6(s,s1);
         }
     }
 
